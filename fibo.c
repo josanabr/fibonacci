@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int fibo(int f) {
   if (f == 1) return 0;
@@ -8,7 +9,7 @@ int fibo(int f) {
 
 int main(int argc, char** argv) {
 
-  printf("%d\n",fibo(5));
+  printf("%f\n",sqrt(fibo(5)));
 
   return 0; 
 }
